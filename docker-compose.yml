@@ -1,5 +1,4 @@
 version: '3'
-
 services:
   docker-registry:
     image: registry:2
@@ -9,7 +8,6 @@ services:
     restart: always
     volumes: 
       - ./volume:/var/lib/registry
-
   docker-registry-ui:
     image: konradkleine/docker-registry-frontend:v2
     container_name: docker-registry-ui
