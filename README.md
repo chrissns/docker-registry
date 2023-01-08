@@ -10,4 +10,4 @@ Host your own docker registry.
 ```
 docker-compose up -d
 ```
-The user interface will be visible on `http://localhost:8080`.
+The user interface will be visible on `http://localhost:59151`.
